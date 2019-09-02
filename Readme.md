@@ -12,7 +12,7 @@ However, even with the developer licence not everything what works with a common
 ![](2019-09-02-21-34-00.png)
 
 ## Building the assembly
-There a lot of ways described on the web, how to execute C# code on runtime. The way I figured out for me is to use CSharpCodeProvider wich is derived from CodeDomProvider to get the assembly.
+There are a lot of ways described on the web, how to execute C# code on runtime. The way I figured out for me is to use CSharpCodeProvider wich is derived from CodeDomProvider to get the assembly.
 ```csharp
 CSharpCodeProvider codeProvider = new CSharpCodeProvider();
 CompilerParameters parameters = new CompilerParameters();
@@ -33,7 +33,7 @@ execute.Invoke(obj, null);
 ```
 ## The editor
 
-There are two most mentioned wpf controls on stackoverflow wich comes syntax highlighting and code completion. 
+There are two most mentioned wpf controls on stackoverflow wich comes with syntax highlighting and code completion. 
 - [AvalonEdit](http://avalonedit.net)
 - [and the one from Syncfusion](https://www.syncfusion.com/wpf-ui-controls/syntax-editor)
 I decided to use the second one because the usage for C# is pretty easy. 
