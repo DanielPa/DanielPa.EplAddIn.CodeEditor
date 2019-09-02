@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.352
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DanielPa.EplAddIn.CodeEditor", "DanielPa.EplAddIn.CodeEditor\DanielPa.EplAddIn.CodeEditor.csproj", "{528609BA-CAE3-4A4D-BA17-1FED6A4A441F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		sign|Any CPU = sign|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{528609BA-CAE3-4A4D-BA17-1FED6A4A441F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{528609BA-CAE3-4A4D-BA17-1FED6A4A441F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{528609BA-CAE3-4A4D-BA17-1FED6A4A441F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{528609BA-CAE3-4A4D-BA17-1FED6A4A441F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{528609BA-CAE3-4A4D-BA17-1FED6A4A441F}.sign|Any CPU.ActiveCfg = sign|Any CPU
+		{528609BA-CAE3-4A4D-BA17-1FED6A4A441F}.sign|Any CPU.Build.0 = sign|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8AD496C3-7144-4223-B8B8-F594E4DF7933}
+	EndGlobalSection
+EndGlobal
