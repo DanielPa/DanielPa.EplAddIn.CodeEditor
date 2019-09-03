@@ -12,7 +12,7 @@ However, even with the developer licence not everything what works with a common
 ![](2019-09-02-21-34-00.png)
 
 ## Building the assembly
-There are a lot of ways described on the web, how to execute C# code on runtime. The way I figured out for me is to use CSharpCodeProvider wich is derived from CodeDomProvider to get the assembly.
+There are a lot of ways described on the web, how to execute C# code on runtime. The way I figured out for me is to use `CSharpCodeProvider` wich is derived from `CodeDomProvider` to get the assembly.
 ```csharp
 CSharpCodeProvider codeProvider = new CSharpCodeProvider();
 CompilerParameters parameters = new CompilerParameters();
@@ -22,7 +22,7 @@ parameters.ReferencedAssemblies.Add("All EPLAN assemblies");
 ...
 CompilerResults compilerResults = codeProvider.CompileAssemblyFromSource(parameters, source);
 ```
-The `CompilerResults` object carries all the further needed stuff like the assebly or if the compiling went wrong it contains a list of errors.
+The `CompilerResults` object carries all the further needed stuff like the assembly or if the compiling went wrong it contains a list of errors.
 
 ## Executing the code
 In this example there has to be a class named `Bar` from the namespace `Foo` and a method called `Execute`. The method will be invoked via reflection
